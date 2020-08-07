@@ -1,2 +1,2 @@
-# AKrischik
- 
+# js-primer
+ Basic JavaScript examples
