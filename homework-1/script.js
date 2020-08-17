@@ -30,8 +30,16 @@ console.log(`${a2**2} + ${b2**2} = ${c2**2}`,`${a2**2 + b2**2 === c2**2}`);
 const a3 =10 ;
 const b3 =8;
 const c3 =15;
+const itog = a3 + b3 > c3;
+console.log(itog);
 
-console.log(`${a3 + b3 > c3}`);
+//либо так
+
+// console.log(`${a3 + b3 > c3}`);
+
+// либо так
+
+// console.log(a3 + b3 > c3 );
 
 
 
