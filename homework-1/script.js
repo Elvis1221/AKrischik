@@ -35,7 +35,7 @@ console.log(itog);
 
 //либо так
 
-// console.log(`${a3 + b3 > c3}`);
+// console.log(`${a3} + ${b3} > ${c3}`,`${a3 + b3 > c3}`);
 
 // либо так
 
