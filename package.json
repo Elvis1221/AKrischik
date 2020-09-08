@@ -2,10 +2,10 @@
   "name": "js-primer",
   "version": "1.0.0",
   "description": "Basic JavaScript examples.",
-  "main": "homework-3/script.js",
+  "main": "homework-4/script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node homework-3/script.js"
+    "start": "node homework-4/script.js"
 
   },
   "repository": {
