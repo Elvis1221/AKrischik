@@ -16,9 +16,19 @@ const personArray = [
   person("Лясецкий", "Евгений", "Францович", 30),
   person("Китурко", "Сергей", "Андреевич", 26)
 ];
-console.table(personArray);
 
 
+const filterFn = personArray.sort(function(a, b) {
+  if (a.firstName > b.firstName) {
+    return 1;
+  }
+  if (a.firstName < b.firstName) {
+    return -1;
+  }
+  return 0;
+
+});
+console.log(filterFn);
 
 const sortAgeMax = (array) => {
   let age = 0;
@@ -43,15 +53,4 @@ const sortAgeMin = (array) => {
 // //
 console.log(`Самому страшему пользоватею: ${sortAgeMax(personArray)} года`);
 console.log(`Самому младшему пользоватею: ${sortAgeMin(personArray)} лет`);
-// //
-// //
-//
-
-
-
-
-
-
-
-
 

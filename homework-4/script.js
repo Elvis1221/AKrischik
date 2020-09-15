@@ -1,9 +1,9 @@
 // найти расстояние между двумя точками c помощью функции
 const distance = (object) =>
   Math.sqrt((object.x1 - object.x2) ** 2 + (object.y1 - object.y2) ** 2);
-const coordinates = { x1: 31, x2: 20, y1: 13, y2: 38 };
+const coordinates = { x1: 31, x2: 20, y1: 23, y2: 18 };
 console.log(
-  `Расстояние между точками x1,y1 и x2,y2 равное: ${distance(coordinates)}`
+  `Расстояние между точками x1,y1 и x2,y2 равное: ${distance(coordinates).toFixed(2)}`
 );
 //
 // // // пусть у нас есть три числа, надо убедиться что они удовлетворяют теореме Пифагора
